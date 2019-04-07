@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SeleniumCodingAssignment_5th_April">
+
+	<listeners>
+		<listener class-name="com.ca.utility.AutoExtentReporterNG" />
+	</listeners>
+
+
+	<test name="SeleniumCodingAssignment_5th_April TestCases">
+		<classes>
+			
+			<class name="com.ca.testcases.HomePageTest"></class>
+			<class name="com.ca.testcases.PropertyDetailsPageTest"></class>
+			<class name="com.ca.testcases.PropertyPageTest"></class>
+			<class name="com.ca.testcases.AgentPageTest"></class>
+		</classes>
+	</test>
+</suite>
